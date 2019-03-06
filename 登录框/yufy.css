@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0px;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    overflow: hidden;
+}
+
+.form-box {
+    width: 360px;
+    height: 260px;
+    background: #ccc;
+    border: 1px solid #000;
+    border-radius: 15px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -130px;
+    margin-left: -180px;
+    -webkit-transform: scale(4, 4);
+    opacity: 0;
+    display: none;
+}

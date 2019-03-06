@@ -1,0 +1,22 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#box {
+	width: 200px;
+	height: 200px;
+	background: red;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+#box2 {
+	width: 200px;
+	height: 200px;
+	background: green;
+	position: absolute;
+	right: 0;
+	top: 0;
+}

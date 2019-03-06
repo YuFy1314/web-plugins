@@ -1,0 +1,33 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.clearfix:after {
+	clear: both;
+	content: '';
+	display: block;
+}
+
+.clearfix {
+	zoom: 1;
+}
+
+#flow {
+	width: 966px;
+	margin: 0 auto;
+}
+
+#flow ul {
+	float: left;
+	width: 300px;
+	border: 1px solid #000;
+	margin: 0 10px;
+}
+
+#flow ul li {
+	width: 100%;
+	background: #ccc;
+	margin: 10px 0;
+}

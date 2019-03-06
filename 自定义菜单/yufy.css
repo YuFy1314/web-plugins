@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 2000px;
+}
+
+ul {
+    width: 200px;
+    border: 1px solid #000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    display: none;
+}
+
+li {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 10px;
+    background: #ebebeb;
+}
+
+li:hover {
+    background: #ccc;
+}

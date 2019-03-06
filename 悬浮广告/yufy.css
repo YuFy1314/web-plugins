@@ -1,0 +1,13 @@
+body {
+    height: 3000px;
+}
+
+#ad {
+    width: 200px;
+    height: 200px;
+    background: red;
+    position: fixed;
+    _position: absolute;
+    right: 0;
+    bottom: 0;
+}

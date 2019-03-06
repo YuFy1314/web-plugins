@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.clock {
+    width: 300px;
+    height: 300px;
+    border: 5px solid #000;
+    border-radius: 50%;
+    margin: 100px auto;
+    position: relative;
+}
+
+.clock .finger {
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+    border-radius: 50% 50% 0 0;
+    -webkit-transform: rotate(0deg);
+    -webkit-transform-origin: bottom;
+}
+
+.clock .hou {
+    width: 10px;
+    height: 80px;
+    background: #000;
+    margin-left: -5px;
+}
+
+.clock .min {
+    width: 8px;
+    height: 100px;
+    background: #000;
+    margin-left: -4px;
+}
+
+.clock .sec {
+    width: 6px;
+    height: 120px;
+    background: #f00;
+    margin-left: -3px;
+    bottom: 130px;
+    -webkit-transform-origin: center 100px;
+}
+
+.clock span {
+    position: absolute;
+    width: 4px;
+    height: 10px;
+    background: #000;
+    left: 50%;
+    top: 0;
+    margin-left: -2px;
+    -webkit-transform-origin: center 150px;
+}
+
+.clock span.big_scale {
+    width: 6px;
+    height: 15px;
+    margin-left: -3px;
+}
+
+.clock .big_scale em {
+    position: absolute;
+    top: 18px;
+    left: 50%;
+    margin-left: -15px;
+    font-style: normal;
+    width: 30px;
+    text-align: center;
+}
+
+.clock .cap {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -8px;
+    margin-top: -8px;
+    background: -webkit-radial-gradient(#fff, #000);
+}
